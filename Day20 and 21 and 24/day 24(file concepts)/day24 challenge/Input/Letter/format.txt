@@ -1,0 +1,5 @@
+Dear {name},
+
+Hi, you are invited to my party which is going to happen on this Sunday.
+
+Thank you
