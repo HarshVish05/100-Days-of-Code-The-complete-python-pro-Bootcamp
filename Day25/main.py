@@ -37,8 +37,16 @@ dataframe_data = pandas.DataFrame(data= data_dict)
 dataframe_data.to_csv("new_data.csv")  # it only takes one argument which is the path 
 # print(dataframe_data)
 
+# looping through dataframes
+# for key,value in dataframe_data.items():
+#     print(value)
 
-
+# looping through each rows of dataframes
+for index, row in dataframe_data.iterrows():
+    # print(index)
+    # print(row.students) # each row is a panda series object
+    if row.students == 'Chandu':
+        print(row.scores)
 
 
 
