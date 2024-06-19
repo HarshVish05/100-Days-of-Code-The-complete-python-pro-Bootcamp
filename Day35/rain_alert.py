@@ -16,7 +16,7 @@ api_key = os.environ.get("OPENWEATHER_API_KEY")
 
 MY_LAT = 22.572645
 MY_LONG = 88.363892
-account_sid = "AC370cd4f4ecb471b2a3a790e2ce3db21c"
+account_sid = os.getenv("TWILIO_ACCOUNT_SID")
 auth_token  = os.getenv("TWILIO_AUTH_TOKEN")
 
 print(auth_token)
